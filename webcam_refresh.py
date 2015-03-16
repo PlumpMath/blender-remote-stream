@@ -10,7 +10,6 @@ print("====start")
 # Frame rate and all can be adjusted. ffmpeg is optimized for this.
 # Blender natively supports ffmpeg
 def main():
-    global obj, ID 
     print('refresh')
     if not hasattr(bge.logic, 'video'):
         ID = bge.texture.materialID(obj, 'IMgsoc.jpg')
